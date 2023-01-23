@@ -2,6 +2,8 @@ import tour1 from './images/tour-1.jpeg';
 import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
+import tour5 from './images/arg1.jpeg';
+import tour6 from './images/arg2.jpeg';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -42,7 +44,7 @@ export const tours = [
   {
     id: 1,
     img: tour1,
-    date: 'august 26th, 2020',
+    date: 'august 26th, 2023',
     name: 'Tibet Adventure',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
     icon: 'fas fa-map',
@@ -53,7 +55,7 @@ export const tours = [
   {
     id: 2,
     img: tour2,
-    date: 'october 1th, 2020',
+    date: 'october 1th, 2023',
     name: 'best of java',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
     icon: 'fas fa-map',
@@ -64,7 +66,7 @@ export const tours = [
   {
     id: 3,
     img: tour3,
-    date: 'september 15th, 2020',
+    date: 'september 15th, 2023',
     name: 'explore hong kong',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
     icon: 'fas fa-map',
@@ -75,7 +77,7 @@ export const tours = [
   {
     id: 4,
     img: tour4,
-    date: 'december 5th, 2019',
+    date: 'december 5th, 2023',
     name: 'kenya highlights',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
     icon: 'fas fa-map',
@@ -85,7 +87,7 @@ export const tours = [
   },
   {
     id: 5,
-    img: tour4,
+    img: tour5,
     date: 'december 5th, 2023',
     name: 'Argentina highlights',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
@@ -96,13 +98,13 @@ export const tours = [
   },
   {
     id: 6,
-    img: tour4,
-    date: 'december 5th, 2023',
-    name: 'Argentina highlights',
+    img: tour6,
+    date: 'december 6th, 2023',
+    name: 'Argentina 2 highlights',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
     icon: 'fas fa-map',
     place: 'Argentina',
-    days: '20 days',
-    price: 3900,
+    days: '30 days',
+    price: 5900,
   },
 ];
